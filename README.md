@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [base-apparel-coming-soon](https://github.com/prakashraja-0723/base-apparel-coming-soon)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [base-apparel-coming-soon](https://base-apparel-coming-soon-prakash-rajas-projects.vercel.app/)
 
 ## My process
 
@@ -62,7 +62,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [frontendmentor.io](https://www.frontendmentor.io/profile/prakashraja-0723)
 - Github - [github.com](https://github.com/prakashraja-0723)
 
