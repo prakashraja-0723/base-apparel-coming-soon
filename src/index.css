@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-red-1: hsl(0, 100%, 98%);
+  --color-red-2: hsl(0, 80%, 86%);
+  --color-red-3: hsl(0, 36%, 70%);
+  --color-red-4: hsl(0, 74%, 74%);
+  --color-red-5: hsl(0, 93%, 68%);
+  --color-neutral-1: hsl(0, 6%, 24%);
+}
+
+@layer base {
+  * {
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+}
+
+@layer components {
+  .hero-section {
+    background-image: url("../public/images/bg-pattern-desktop.svg"),
+      linear-gradient(135deg, var(--color-white), var(--color-red-1));
+  }
+
+  .hero-section {
+    @apply h-screen bg-no-repeat bg-cover bg-center flex-1 flex items-center justify-start max-lg:items-start max-lg:pt-16 relative;
+  }
+}
